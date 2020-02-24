@@ -27,6 +27,8 @@ Study and revise Linux Kernel 0.11
 
 ## 进度
 ###　BIOS显示字符串"Hello humanbeings! Welcome to YOUNIX!"
+
+
 ![截图](/images/show-string.png)
 
 
