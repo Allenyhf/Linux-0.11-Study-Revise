@@ -30,3 +30,5 @@ Study and revise Linux Kernel 0.11
 ![截图](/images/show-string.png)
 
 
+
+
