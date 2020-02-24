@@ -1,2 +1,17 @@
 # Linux-0.11-Study-Revise
-Study and revise Linux Kernel 0.11(研读和修改Linux内核0.11)
+## Description
+Study and revise Linux Kernel 0.11
+
+## Files
+### bootsect.s 
+- 8086 assembling  source file.
+- This version is to show string in the screen "Hello humanbeings! Welcome to YOUNIX!"
+
+
+## 描述
+研读和修改Linux内核0.11
+
+## 文件
+### bootsect.s
+- 8086汇编源文件
+- 这个版本的文件是用来在屏幕上显示字符串"Hello humanbeings! Welcome to YOUNIX!"
