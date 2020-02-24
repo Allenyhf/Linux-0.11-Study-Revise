@@ -26,7 +26,7 @@ Study and revise Linux Kernel 0.11
 - Linux 内核修改后运行的截图
 
 ## 进度
-###　BIOS显示字符串"Hello humanbeings! Welcome to YOUNIX!"
+### BIOS显示字符串"Hello humanbeings! Welcome to YOUNIX!"
 
 
 ![截图](/images/show-string.png)
