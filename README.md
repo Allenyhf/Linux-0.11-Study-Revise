@@ -22,15 +22,15 @@ Study and revise Linux Kernel 0.11
 - bootsect.s修改笔记
 ### bootsect-study-note 
 - bootsect.s研读笔记
-### show-string.png
-- Linux 内核修改后运行的截图
+
 
 ## 进度
 ### BIOS显示字符串"Hello humanbeings! Welcome to YOUNIX!"
 
-
 ![截图](/images/show-string.png)
-
-
+### 载入setup，跳转到setup代码段运行，并显示字符串“Here is setup...”
+![截图](/images/setup.png)
+### 通过中断，读取当前光标位置和内存大小，并显示在屏幕
+![截图](/images/cur_mem.png)
 
 
