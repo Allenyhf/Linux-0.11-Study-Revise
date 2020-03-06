@@ -32,6 +32,7 @@ Study and revise Linux Kernel 0.11
 
 
 ## 进度
+## lab1　操作系统启动引导
 ### BIOS显示字符串"Hello humanbeings! Welcome to YOUNIX!"
 
 ![截图](/images/show-string.png)
@@ -39,5 +40,27 @@ Study and revise Linux Kernel 0.11
 ![截图](/images/setup.png)
 ### 通过中断，读取当前光标位置和内存大小，并显示在屏幕
 ![截图](/images/cur_mem.png)
+
+### lab2 添加系统调用
+### 添加含有一个参数的系统调用iam
+- 函数原型: int iam(const char* name)
+- 功能：传入字符串指针，将字符串存到内核中字符串sys_name，字符串长度不大于25;返回字符串长度，若超过25，返回-1
+- 测试：在linux-0.11中，编写一个iam.c程序，编译运行测试。根据系统调用返回结果，打印结果
+
+### 添加含有两个参数的系统调用whoami
+- 函数原型: int whoami(char* name, int size)
+- 功能：传入字符串指针，将内核中的字符串sys_name拷贝到name指向的空间，size指明name分配得到的空间;返回字符串长度，若超过size，返回-1
+- 测试：在linux-0.11中，编写一个whoami.c程序，编译运行测试。根据系统调用返回结果，打印得到的字符串
+![截图](/images/syscall.png)
+### 添加含有三个参数的系统调用store_myinfo与get_myinfo
+
+
+
+
+
+
+
+
+
 
 
