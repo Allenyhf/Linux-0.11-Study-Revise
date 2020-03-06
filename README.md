@@ -32,7 +32,7 @@ Study and revise Linux Kernel 0.11
 
 
 ## 进度
-## lab1　操作系统启动引导
+## lab1　操作系启动引导
 ### BIOS显示字符串"Hello humanbeings! Welcome to YOUNIX!"
 
 ![截图](/images/show-string.png)
@@ -51,10 +51,16 @@ Study and revise Linux Kernel 0.11
 - 函数原型: int whoami(char* name, int size)
 - 功能：传入字符串指针，将内核中的字符串sys_name拷贝到name指向的空间，size指明name分配得到的空间;返回字符串长度，若超过size，返回-1
 - 测试：在linux-0.11中，编写一个whoami.c程序，编译运行测试。根据系统调用返回结果，打印得到的字符串
+
 ![截图](/images/syscall.png)
 ### 添加含有三个参数的系统调用store_myinfo与get_myinfo
+- 函数原型: int store_myinfo(const char* name, const char* sex, int age)
+- 功能：分别将name和sex指向的字符串，存储到内核中sys_name和sys_sex指向的空间；将age赋给sys_age。name长度小于20，sex长度小于5，超过返回-1，否则成功则返回０.
+- 测试:在linux-0.11中，编写一个storemyinfo.c程序，编译运行测试。根据系统调用返回结果，打印结果
 
-
+- 函数原型: int get_myinfo(char* name, char* sex, unsigned long* addr_age)
+- 功能：分别将内核中sys_name和sys_sex指向的字符串，复制给name和sex指向的空间，将sys_age的值，复制给addr_age指向的空间。失败返回-1，成功返回０
+ - 测试：在linux-0.11中，编写一个getmyinfo.c程序，编译运行测试。根据系统调用返回结果，打印得到的字符串
 
 
 
