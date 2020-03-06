@@ -62,6 +62,7 @@ Study and revise Linux Kernel 0.11
 - 功能：分别将内核中sys_name和sys_sex指向的字符串，复制给name和sex指向的空间，将sys_age的值，复制给addr_age指向的空间。失败返回-1，成功返回０
  - 测试：在linux-0.11中，编写一个getmyinfo.c程序，编译运行测试。根据系统调用返回结果，打印得到的字符串
 
+![截图](/images/３syscall.png)
 
 
 
