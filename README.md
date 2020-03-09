@@ -62,7 +62,15 @@ Study and revise Linux Kernel 0.11
 - 功能：分别将内核中sys_name和sys_sex指向的字符串，复制给name和sex指向的空间，将sys_age的值，复制给addr_age指向的空间。失败返回-1，成功返回０
  - 测试：在linux-0.11中，编写一个getmyinfo.c程序，编译运行测试。根据系统调用返回结果，打印得到的字符串
 
-![截图](/images/３syscall.png)
+![截图](/images/3syscall.png)
+
+### lab3-进程运行轨迹与统计
+- process.c中fork多个子进程，调用cpuio_bound函数设置子进程运行总时间、每次调度cpu时间、每次io时间
+- 在linux0.11kernel上运行process.c编译生成的二进制文件process
+![截图](/images/39991.png)
+![截图](/images/39992.png)
+- 进程运行数据分析
+![截图](/images/39993.png)
 
 
 
