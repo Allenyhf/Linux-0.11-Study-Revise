@@ -67,9 +67,13 @@ Study and revise Linux Kernel 0.11
 ### lab3-进程运行轨迹与统计
 - process.c中fork多个子进程，调用cpuio_bound函数设置子进程运行总时间、每次调度cpu时间、每次io时间
 - 在linux0.11kernel上运行process.c编译生成的二进制文件process
+
 ![截图](/images/39991.png)
+
 ![截图](/images/39992.png)
+
 - 进程运行数据分析
+
 ![截图](/images/39993.png)
 
 
