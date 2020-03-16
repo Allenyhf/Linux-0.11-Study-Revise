@@ -76,7 +76,13 @@ Study and revise Linux Kernel 0.11
 
 ![截图](/images/39993.png)
 
+### lab4-基于内核栈切换的进程切换
+- 原Linux-0.11基于TSS进行切换，有着诸多缺点，如
+- 通过内核栈进行进程切换，可以避免不必要的开销，提高效率
+- PCB/TCB中的esp保存着本进程/线程的内核栈指针
+- 内核栈中有SS、SP分别对应用户栈基址、用户栈指针
 
+![截图](/images/lab4.png)
 
 
 
