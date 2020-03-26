@@ -84,7 +84,7 @@ Study and revise Linux Kernel 0.11
 
 ![截图](/images/lab4.png)
 
-### lab7-地址映射
+### lab6-地址映射
 - 对用户程序test.c中的全局变量计算逻辑地址（虚拟地址）和物理地址
 - 通过dbg-asm调试器修改该变量的值，进而改变程序执行的情况
 
