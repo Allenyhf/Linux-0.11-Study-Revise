@@ -92,7 +92,13 @@ Study and revise Linux Kernel 0.11
 
 ![截图](/images/lab7_mem2.png)
 
+### lab7-终端设备的控制
+- F12功能键：
+  - 按一次，之后屏幕输出将变成加密，即都是***
+  - 再按一次，取消解密
+  - 按第三次，加密
 
+![截图](/images/kb1.png)
 
 
 
