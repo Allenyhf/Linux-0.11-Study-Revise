@@ -100,6 +100,14 @@ Study and revise Linux Kernel 0.11
 
 ![截图](/images/kb1.png)
 
+### lab8-PROC文件系统的实现
+- 通过打补丁的方式在Linux-0.11上实现proc文件系统
+  - 实现后，可以通过cat命令读取系统相关信息，如进程信息
+  
+![截图](/images/psinfo.png)
+
+  
+  
 
 
 
